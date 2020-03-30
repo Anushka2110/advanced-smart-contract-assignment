@@ -1,9 +1,10 @@
 # advanced-smart-contract-assignment
+
 Student Name : Anushka Aggarwal<br>
 Student ID : 101195651
 
-This smart contract is created to demonstrate the optimization of a common smart contract operation using Assembly stream and low-level EVM.
-<br>
+This smart contract is created to demonstrate the optimization of common smart contract operations using Assembly stream and low-level EVM.
+<br><br>
 ### DETAILS :<br>
 In this, a smart contract has been created, namely, 'Assembly_optimize'. There are 4 functions in it, 2 that use normal solidity and the other 2 using Assembly. The first demonstration is of a simple for-loop. The second demonstration allows user input for an array that takes integers and stores it. The idea is to compare the same operations by writing them both using different coding, and see which one is more cost efficient in terms of gas, and thus more optimized.
 
@@ -17,7 +18,7 @@ Unit tests have been written in the 'test-assembly-optimize.js' file. The smart 
 Since this smart contract uses assembly and low level EVM, there are obvious potential threats like incorrect stack access etc, due to bypassing a lot of the solidity security checks. Also, the latest solidity version has not been used because it doesn't allow us to use low level EVM.
 
  However, if care is taken to manually secure the smart contract while writing code using assembly, the cost efficiency and saved gas might surpass any lingering security concerns.
-<br><br>
+<br><br><br><br>
 ### Steps to run it in Remix :<br>
 1. Download the repository.
 2. Copy Assembly_optimize.sol to Remix.
