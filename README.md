@@ -21,6 +21,6 @@ Since this smart contract uses assembly and low level EVM, there are obvious pot
 <br><br><br><br>
 ### Steps to run it in Remix :<br>
 1. Download the repository.
-2. Copy Assembly_optimize.sol to Remix.
+2. Copy 'Assembly_optimize.sol' to Remix.
 3. Compile the smart contract. Make sure to enable optimization.
 4. Deploy the smart contract.
